@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+.a::after {
+    content:" After Element";
+	color:red;
+}
+.a::before {
+    content:"Before Element ";
+	color:red;
+}
+
